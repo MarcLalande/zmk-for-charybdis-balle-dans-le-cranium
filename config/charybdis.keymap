@@ -98,12 +98,12 @@
 
         layer_0 {
             bindings = <
-&kp ESC         &kp N1  &kp N2  &kp N3        &kp N4     &kp N5          &kp N6     &kp N7     &kp N8     &kp N9            &kp N0    &kp BACKSPACE
-&kp TAB         &kp Q   &kp W   &kp E         &kp R      &kp T           &kp Y      &kp U      &kp I      &kp O             &kp P     &kp BSLH
-&kp LEFT_SHIFT  &kp A   &kp S   &kp D         &kp F      &kp G           &kp H      &kp J      &kp K      &kp L             &kp SEMI  &kp SQT
-&kp LCTRL       &kp Z   &kp X   &kp C         &kp V      &kp NUMBER_1    &kp N      &kp M      &kp COMMA  &kp LEFT_BRACKET  &kp FSLH  &kp MINUS
-                                &kp LEFT_ALT  &kp SPACE  &to 1           &kp LWIN   &kp SPACE
-                                              &mkp MB1   &mkp MB2        &kp ENTER
+&kp ESC         &kp N1  &kp N2  &kp N3        &kp N4     &kp N5    &kp NUMBER_6  &kp N7         &kp N8     &kp N9   &kp N0        &kp BACKSPACE
+&kp TAB         &kp Q   &kp W   &kp F         &kp P      &kp B     &kp J         &kp L          &kp U      &kp Y    &kp SQT       &kp LCTRL
+&kp LEFT_SHIFT  &kp A   &kp R   &kp S         &kp T      &kp G     &kp M         &kp N          &kp E      &kp I    &kp O         &kp RIGHT_SHIFT
+&kp CAPS        &kp Z   &kp X   &kp C         &kp D      &kp V     &kp K         &kp H          &kp COMMA  &kp DOT  &kp QUESTION  &kp EXCL
+                                &kp LEFT_ALT  &kp SPACE  &mo 1     &kp ENTER     &kp BACKSPACE
+                                              &kp LCTRL  &tog 2    &kp LCTRL
             >;
 
             sensor-bindings =
@@ -116,23 +116,23 @@
 
         layer_1 {
             bindings = <
-&kp F1          &kp F2  &kp F3  &kp F4        &kp F5      &kp F6        &kp F7     &kp F8    &kp F9      &kp F10            &kp F11  &kp F12
-&kp CAPS        &none   &none   &none         &none       &none         &none      &none     &kp UP      &none              &none    &none
-&kp LEFT_SHIFT  &none   &none   &none         &bt BT_NXT  &bt BT_CLR    &none      &kp LEFT  &kp DOWN    &kp RIGHT          &none    &none
-&kp LCTRL       &none   &none   &none         &none       &none         &none      &none     &kp PERIOD  &kp RIGHT_BRACKET  &none    &kp EQUAL
-                                &kp LEFT_ALT  &kp SPACE   &to 0         &none      &none
-                                              &mkp MB1    &mkp MB2      &kp ENTER
+&kp F1           &kp K_VOLUME_DOWN     &kp K_VOLUME_UP        &kp F4            &kp F5           &kp F6       &kp F7             &kp F8            &kp F9          &kp F10            &kp F11          &kp F12
+&kp EXCLAMATION  &kp AMPERSAND         &kp BACKSLASH          &kp SQT           &kp COLON        &kp UNDER    &kp LESS_THAN      &kp GREATER_THAN  &kp UP_ARROW    &kp HASH           &kp DOLLAR       &kp TILDE
+&kp PIPE         &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE  &kp EQUAL    &kp F12            &kp LEFT_ARROW    &kp DOWN_ARROW  &kp RIGHT_ARROW    &kp PLUS         &kp LALT
+&kp SEMICOLON    &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT       &kp ASTERISK     &kp MINUS    &none              &kp AT_SIGN       &kp PERIOD      &kp RIGHT_BRACKET  &kp PRINTSCREEN  &kp EQUAL
+                                                              &kp LEFT_COMMAND  &kp SPACE        &none        &kp DOUBLE_QUOTES  &kp LALT
+                                                                                &mkp MB1         &mkp MB2     &kp SLASH
             >;
         };
 
         layer_2 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
+&kp ESC         &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4      &kp N5            &kp NUMBER_6       &kp N7         &kp N8     &kp N9      &kp N0         &kp DEL
+&kp TAB         &kp Q         &kp W         &kp E         &kp R             &kp T             &kp Y              &kp U          &kp I      &kp O       &kp P          &kp LEFT_BRACKET
+&kp LEFT_SHIFT  &kp A         &kp S         &kp D         &kp F             &kp G             &kp H              &kp J          &kp K      &kp L       &kp SEMICOLON  &kp RIGHT_BRACKET
+&kp CAPS        &kp Z         &kp X         &kp C         &kp V             &kp B             &kp N              &kp M          &kp COMMA  &kp PERIOD  &kp QUESTION   &kp EXCL
+                                            &kp LALT      &kp SPACE         &tog 0            &kp ENTER          &kp BACKSPACE
+                                                          &kp LEFT_CONTROL  &kp LEFT_SHIFT    &kp RIGHT_CONTROL
             >;
         };
 
